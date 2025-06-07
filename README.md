@@ -33,18 +33,6 @@ This is done by minimizing the **Mean Squared Error (MSE)** using **gradient des
   \]$
   until the loss function converges.
 
-- Tested using a sample dataset:  
-  X = [1, 2, 3, 4, 5] and y = [3, 5, 7, 9, 11], Which equates to y = 2x + 1
-
-### Results
-
-After training:
-- **Learned Weights**:  
-  `W ≈ 2.0078`, `B ≈ 0.9717`
-- **Predictions**:  
-  `[2.98, 4.99, 7.00, 9.00, 11.01]`
-- **Final Loss**:  
-  `MSE ≈ 0.00015` — indicating near-perfect convergence
 
 ## What I Learned
 
@@ -54,5 +42,4 @@ After training:
 
 ## Next Steps
 
-- Support for multiple features (multivariate linear regression)
 - Visualization of gradient descent steps and convergence
