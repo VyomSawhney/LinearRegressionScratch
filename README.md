@@ -1,4 +1,4 @@
-# Linear Regression from Scratch in Python
+# Multiple Linear Regression from Scratch in Python
 
 Built only with NumPy libraries this simple linear regression using **gradient descent** showcases the foundational machine learning concept of fitting a line to a model.
 
@@ -10,6 +10,11 @@ The goal is to model a relationship between input \( x \) and output \( y \) by 
 $$\[
 \hat{y} = Wx + B
 \]$$
+
+Given:
+- $$\( X \in \mathbb{R}^{n \times d} \)$$: input feature matrix
+- $$\( W \in \mathbb{R}^{d} \)$$: learned weights
+- $$\( B \in \mathbb{R} \)$$: learned scalar bias
 
 This is done by minimizing the **Mean Squared Error (MSE)** using **gradient descent**.
 
